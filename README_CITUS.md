@@ -60,6 +60,8 @@ Puedes hacer consultas distribuidas directamente desde el coordinador:
 SELECT * FROM usuario WHERE documento_id > 0;
 ```
 
+Aqui se hace la validacion de la consulta anterior
+![Diagrama ER](consultaBD.jpg)
 ---
 
 ##  Archivos
@@ -74,6 +76,13 @@ SELECT * FROM usuario WHERE documento_id > 0;
 
 ---
 
+Aqui se puede apreciar el modelo entidad relacion
+![Diagrama ER](MER.png)
+
+
 ## Autor
 
 Jaider reyes Herazo Ingeniero Experto SRE
+
+
+
