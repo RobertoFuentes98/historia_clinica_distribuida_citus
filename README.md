@@ -146,8 +146,6 @@ SELECT * FROM master_get_active_worker_nodes();
 
 ---
 
-![Diagrama ER](fot1.png)
-
 ### 5. Verificación
 
 SELECT * FROM master_get_active_worker_nodes();
@@ -155,8 +153,6 @@ SELECT * FROM master_get_active_worker_nodes();
 ---
 
 ## 🔍 Validación
-
-SELECT * FROM citus_tables;
 
 ---
 ![Diagrama ER](MER.png)
