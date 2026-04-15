@@ -160,6 +160,11 @@ SELECT * FROM citus_tables;
 ---
 ![Diagrama ER](fot2.png)
 
+Puedes hacer consultas distribuidas directamente desde el coordinador:
+
+SELECT * FROM usuario WHERE documento_id > 0;
+![Diagrama ER](fot3.png)
+
 ## 📈 Consulta de prueba
 
 SELECT documento_id, COUNT(*)  
