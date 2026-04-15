@@ -114,7 +114,7 @@ Debido al uso de Citus, algunas relaciones no se implementan como claves foráne
 
 ### 1. Clonar repositorio
 
-git clone https://github.com/TU_USUARIO/historia-clinica-distribuida-citus.git  
+git clone https://github.com/jcontreras-dev/historia_clinica_distribuida_citus.git
 cd historia-clinica-distribuida-citus  
 
 ---
@@ -139,12 +139,13 @@ Al iniciar el sistema:
 
 Ejecutar en DBeaver:
 
-SELECT citus_set_coordinator_host('citus_coordinator');
+SELECT * FROM master_add_node('citus_worker1', 5432);
 
-SELECT * FROM master_add_node('citus_worker1', 5432);  
-SELECT * FROM master_add_node('citus_worker2', 5432);  
+SELECT * FROM master_get_active_worker_nodes();
 
 ---
+
+![Diagrama ER](image.png)
 
 ### 5. Verificación
 
