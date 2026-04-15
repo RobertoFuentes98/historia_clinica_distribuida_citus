@@ -158,6 +158,7 @@ SELECT * FROM master_get_active_worker_nodes();
 SELECT * FROM citus_tables;
 
 ---
+![Diagrama ER](fot2.png)
 
 ## 📈 Consulta de prueba
 
