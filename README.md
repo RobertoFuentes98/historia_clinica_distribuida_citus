@@ -115,6 +115,7 @@ Debido al uso de Citus, algunas relaciones no se implementan como claves foráne
 ### 1. Clonar repositorio
 
 git clone https://github.com/jcontreras-dev/historia_clinica_distribuida_citus.git
+
 cd historia-clinica-distribuida-citus  
 
 ---
