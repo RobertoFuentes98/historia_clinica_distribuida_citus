@@ -106,7 +106,7 @@ Debido al uso de Citus, algunas relaciones no se implementan como claves foráne
 
 ## 📊 Diagrama Entidad-Relación
 
-![Diagrama ER](diagrama_er.png)
+![Diagrama ER](image.png)
 
 ---
 
