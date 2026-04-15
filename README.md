@@ -145,7 +145,7 @@ SELECT * FROM master_get_active_worker_nodes();
 
 ---
 
-![Diagrama ER](image.png)
+![Diagrama ER](fot1.png)
 
 ### 5. Verificación
 
